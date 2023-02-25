@@ -115,7 +115,7 @@ class Tarot {
         val completionRequest = CompletionRequest(
             model = id,
             prompt = prompt,
-            maxTokens = 256
+            maxTokens = 512
         )
         return openAI.completion(completionRequest).choices.first().text
     }
