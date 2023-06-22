@@ -24,7 +24,8 @@ public class Bot {
                 Commands.slash("thread", "Create a thread for tarot.")
                         .addSubcommands(
                                 new SubcommandData("public", "Create a public thread for tarot."),
-                                new SubcommandData("private", "Create a private thread for tarot.")
+                                new SubcommandData("private", "Create a private thread for tarot."),
+                                new SubcommandData("close", "Close the current thread.")
                         ),
                 Commands.slash("ask", "A simple tarot reading.")
                         .addOptions(

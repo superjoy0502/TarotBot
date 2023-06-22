@@ -27,7 +27,7 @@ dependencies {
     // https://github.com/MinnDevelopment/jda-ktx
     implementation("com.github.minndevelopment:jda-ktx:0.10.0-beta.1")
     // https://github.com/Aallam/openai-kotlin
-    implementation("com.aallam.openai:openai-client:2.1.3")
+    implementation("com.aallam.openai:openai-client:3.0.0")
     implementation("io.ktor:ktor-client-okhttp:2.2.3")
 }
 
